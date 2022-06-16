@@ -1,0 +1,17 @@
+.filter__slide-wrap {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	background-color: rgba(15, 15, 15, 0.9);
+	width: 55px;
+	transition: 0.3s;
+	border-bottom-right-radius: 20px;
+
+	.filter__slide-close {
+		padding: 30px 0;
+	}
+
+	&.open__wrap {
+		width: 190px;
+	}
+}

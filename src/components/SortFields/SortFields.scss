@@ -1,0 +1,24 @@
+.sort__options {
+	margin: 1rem 0 0.5rem;
+	position: relative;
+
+	.sort__option_role-title {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+		h5 {
+			margin: 0.2rem 0;
+			text-align: center;
+			color: #fff;
+		}
+	}
+	.default__sort {
+		position: absolute;
+		right: -15px;
+		top: 25%;
+		cursor: pointer;
+		.default__sort_icon {
+			color: red;
+		}
+	}
+}
